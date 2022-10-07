@@ -386,23 +386,19 @@ Hero
     object-fit: cover;
     border-radius: var(--radius);
     position: relative;
- 
   }
 
   .hero-img::before {
     content: '';
     height: 100%;
     width: 100%;
-   border: 0.25rem solid var(--clr-primary-5);
+    border: 0.25rem solid var(--clr-primary-5);
     position: absolute;
     top: 2rem;
     right: -2rem;
     border-radius: var(--radius);
-    
-    
-  
+  }
 }
-
 /*
 =============== 
 About
@@ -463,5 +459,3 @@ Single Page
 Products Page
 ===============
 */
-
-
